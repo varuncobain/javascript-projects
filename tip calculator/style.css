@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: cornsilk;
+}
+
+.container{
+    margin-top: 20vh;
+    background: chocolate;
+    width: 400px;
+    padding: 20px;
+}
+
+.slider{
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 10px;
+    width: 70%;
+    height: 10px;
+    margin: 10px;
+    margin-left: 0%;
+    outline: none;
+}
+
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    cursor:pointer;
+    width: 20px;
+    height: 20px;
+    background: black;
+    border-radius: 20px;
+
+    
+    
+}
+button{
+    margin: 5px 0px 0px 0px;
+    outline: none;
+    
+}
